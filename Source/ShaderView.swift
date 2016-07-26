@@ -68,7 +68,7 @@ public class ShaderView: SKView {
     }
     
     private var privateLastSize: CGSize?
-    var lastSize: CGSize? {
+    public var lastSize: CGSize? {
         return self.privateLastSize
     }
     
