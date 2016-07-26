@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6412C2E91D2A007000C78066 /* KGNSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6412C2E81D2A003C00C78066 /* KGNSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6412C2EA1D2A007100C78066 /* KGNSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6412C2E81D2A003C00C78066 /* KGNSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6412C2EB1D2A007100C78066 /* KGNSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6412C2E81D2A003C00C78066 /* KGNSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6412C2FA1D2A0A6B00C78066 /* KGNSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E69A61BCCD3B40089EAB1 /* KGNSpriteKitTests.swift */; };
+		6412C2FD1D2A0BBF00C78066 /* KGNSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6412C2D91D29FE0F00C78066 /* KGNSpriteKit.framework */; };
+		6487F3241D46A8E100C7F419 /* SKUniform+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487F3231D46A8E100C7F419 /* SKUniform+Color.swift */; };
+		6487F3251D46A8E100C7F419 /* SKUniform+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487F3231D46A8E100C7F419 /* SKUniform+Color.swift */; };
+		6487F3261D46A8E100C7F419 /* SKUniform+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487F3231D46A8E100C7F419 /* SKUniform+Color.swift */; };
+		6487F3281D46A8ED00C7F419 /* SKUniform+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487F3271D46A8ED00C7F419 /* SKUniform+Float.swift */; };
+		6487F3291D46A8ED00C7F419 /* SKUniform+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487F3271D46A8ED00C7F419 /* SKUniform+Float.swift */; };
+		6487F32A1D46A8ED00C7F419 /* SKUniform+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487F3271D46A8ED00C7F419 /* SKUniform+Float.swift */; };
+		64F1A2B21D46AA560028EB2F /* ShaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A2B11D46AA560028EB2F /* ShaderView.swift */; };
+		64F1A2B31D46AA560028EB2F /* ShaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A2B11D46AA560028EB2F /* ShaderView.swift */; };
+		64F1A2B41D46AA560028EB2F /* ShaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A2B11D46AA560028EB2F /* ShaderView.swift */; };
+		64F1A2B61D46AABE0028EB2F /* SKShader+Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A2B51D46AABE0028EB2F /* SKShader+Source.swift */; };
+		64F1A2B71D46AABE0028EB2F /* SKShader+Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A2B51D46AABE0028EB2F /* SKShader+Source.swift */; };
+		64F1A2B81D46AABE0028EB2F /* SKShader+Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A2B51D46AABE0028EB2F /* SKShader+Source.swift */; };
+		836E69A21BCCD3B40089EAB1 /* KGNSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836E69971BCCD3B40089EAB1 /* KGNSpriteKit.framework */; };
+		836E69A71BCCD3B40089EAB1 /* KGNSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E69A61BCCD3B40089EAB1 /* KGNSpriteKitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6412C2FB1D2A0BA600C78066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836E698E1BCCD3B30089EAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6412C2D81D29FE0E00C78066;
+			remoteInfo = "KGNSpriteKit-tvOS";
+		};
+		836E69A31BCCD3B40089EAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836E698E1BCCD3B30089EAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836E69961BCCD3B40089EAB1;
+			remoteInfo = KGNSpriteKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6412C2C11D29FD2400C78066 /* KGNSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KGNSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6412C2D91D29FE0F00C78066 /* KGNSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KGNSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6412C2E71D2A003C00C78066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6412C2E81D2A003C00C78066 /* KGNSpriteKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGNSpriteKit.h; sourceTree = "<group>"; };
+		6412C2ED1D2A03D600C78066 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		6412C2F21D2A0A4D00C78066 /* KGNSpriteKitTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KGNSpriteKitTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6487F3231D46A8E100C7F419 /* SKUniform+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKUniform+Color.swift"; sourceTree = "<group>"; };
+		6487F3271D46A8ED00C7F419 /* SKUniform+Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKUniform+Float.swift"; sourceTree = "<group>"; };
+		64F1A2B11D46AA560028EB2F /* ShaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaderView.swift; sourceTree = "<group>"; };
+		64F1A2B51D46AABE0028EB2F /* SKShader+Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKShader+Source.swift"; sourceTree = "<group>"; };
+		836E69971BCCD3B40089EAB1 /* KGNSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KGNSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		836E69A11BCCD3B40089EAB1 /* KGNSpriteKitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KGNSpriteKitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836E69A61BCCD3B40089EAB1 /* KGNSpriteKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KGNSpriteKitTests.swift; sourceTree = "<group>"; };
+		836E69A81BCCD3B40089EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6412C2BD1D29FD2400C78066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6412C2D51D29FE0E00C78066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6412C2EF1D2A0A4D00C78066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6412C2FD1D2A0BBF00C78066 /* KGNSpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836E69931BCCD3B40089EAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836E699E1BCCD3B40089EAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836E69A21BCCD3B40089EAB1 /* KGNSpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836E698D1BCCD3B30089EAB1 = {
+			isa = PBXGroup;
+			children = (
+				6412C2ED1D2A03D600C78066 /* .travis.yml */,
+				836E69991BCCD3B40089EAB1 /* Source */,
+				836E69A51BCCD3B40089EAB1 /* Tests */,
+				836E69981BCCD3B40089EAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836E69981BCCD3B40089EAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836E69971BCCD3B40089EAB1 /* KGNSpriteKit.framework */,
+				836E69A11BCCD3B40089EAB1 /* KGNSpriteKitTests-iOS.xctest */,
+				6412C2C11D29FD2400C78066 /* KGNSpriteKit.framework */,
+				6412C2D91D29FE0F00C78066 /* KGNSpriteKit.framework */,
+				6412C2F21D2A0A4D00C78066 /* KGNSpriteKitTests-tvOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836E69991BCCD3B40089EAB1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6412C2E71D2A003C00C78066 /* Info.plist */,
+				6412C2E81D2A003C00C78066 /* KGNSpriteKit.h */,
+				64F1A2B11D46AA560028EB2F /* ShaderView.swift */,
+				64F1A2B51D46AABE0028EB2F /* SKShader+Source.swift */,
+				6487F3231D46A8E100C7F419 /* SKUniform+Color.swift */,
+				6487F3271D46A8ED00C7F419 /* SKUniform+Float.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		836E69A51BCCD3B40089EAB1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				836E69A81BCCD3B40089EAB1 /* Info.plist */,
+				836E69A61BCCD3B40089EAB1 /* KGNSpriteKitTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6412C2BE1D29FD2400C78066 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6412C2EB1D2A007100C78066 /* KGNSpriteKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6412C2D61D29FE0E00C78066 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6412C2EA1D2A007100C78066 /* KGNSpriteKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836E69941BCCD3B40089EAB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6412C2E91D2A007000C78066 /* KGNSpriteKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6412C2C01D29FD2400C78066 /* KGNSpriteKit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6412C2C61D29FD2400C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-watchOS" */;
+			buildPhases = (
+				6412C2BC1D29FD2400C78066 /* Sources */,
+				6412C2BD1D29FD2400C78066 /* Frameworks */,
+				6412C2BE1D29FD2400C78066 /* Headers */,
+				6412C2BF1D29FD2400C78066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KGNSpriteKit-watchOS";
+			productName = KGNSpriteKit;
+			productReference = 6412C2C11D29FD2400C78066 /* KGNSpriteKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6412C2D81D29FE0E00C78066 /* KGNSpriteKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6412C2DE1D29FE0F00C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-tvOS" */;
+			buildPhases = (
+				6412C2D41D29FE0E00C78066 /* Sources */,
+				6412C2D51D29FE0E00C78066 /* Frameworks */,
+				6412C2D61D29FE0E00C78066 /* Headers */,
+				6412C2D71D29FE0E00C78066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KGNSpriteKit-tvOS";
+			productName = KGNSpriteKit;
+			productReference = 6412C2D91D29FE0F00C78066 /* KGNSpriteKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6412C2F11D2A0A4D00C78066 /* KGNSpriteKitTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6412C2F71D2A0A4D00C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKitTests-tvOS" */;
+			buildPhases = (
+				6412C2EE1D2A0A4D00C78066 /* Sources */,
+				6412C2EF1D2A0A4D00C78066 /* Frameworks */,
+				6412C2F01D2A0A4D00C78066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6412C2FC1D2A0BA600C78066 /* PBXTargetDependency */,
+			);
+			name = "KGNSpriteKitTests-tvOS";
+			productName = "KGNSpriteKitTests-tvOS";
+			productReference = 6412C2F21D2A0A4D00C78066 /* KGNSpriteKitTests-tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		836E69961BCCD3B40089EAB1 /* KGNSpriteKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836E69AB1BCCD3B40089EAB1 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-iOS" */;
+			buildPhases = (
+				836E69921BCCD3B40089EAB1 /* Sources */,
+				836E69931BCCD3B40089EAB1 /* Frameworks */,
+				836E69941BCCD3B40089EAB1 /* Headers */,
+				836E69951BCCD3B40089EAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KGNSpriteKit-iOS";
+			productName = KGNSpriteKit;
+			productReference = 836E69971BCCD3B40089EAB1 /* KGNSpriteKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		836E69A01BCCD3B40089EAB1 /* KGNSpriteKitTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836E69AE1BCCD3B40089EAB1 /* Build configuration list for PBXNativeTarget "KGNSpriteKitTests-iOS" */;
+			buildPhases = (
+				836E699D1BCCD3B40089EAB1 /* Sources */,
+				836E699E1BCCD3B40089EAB1 /* Frameworks */,
+				836E699F1BCCD3B40089EAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836E69A41BCCD3B40089EAB1 /* PBXTargetDependency */,
+			);
+			name = "KGNSpriteKitTests-iOS";
+			productName = KGNSpriteKitTests;
+			productReference = 836E69A11BCCD3B40089EAB1 /* KGNSpriteKitTests-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836E698E1BCCD3B30089EAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "David Keegan";
+				TargetAttributes = {
+					6412C2C01D29FD2400C78066 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					6412C2D81D29FE0E00C78066 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					6412C2F11D2A0A4D00C78066 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					836E69961BCCD3B40089EAB1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
+					};
+					836E69A01BCCD3B40089EAB1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 836E69911BCCD3B30089EAB1 /* Build configuration list for PBXProject "KGNSpriteKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 836E698D1BCCD3B30089EAB1;
+			productRefGroup = 836E69981BCCD3B40089EAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836E69961BCCD3B40089EAB1 /* KGNSpriteKit-iOS */,
+				6412C2D81D29FE0E00C78066 /* KGNSpriteKit-tvOS */,
+				6412C2C01D29FD2400C78066 /* KGNSpriteKit-watchOS */,
+				836E69A01BCCD3B40089EAB1 /* KGNSpriteKitTests-iOS */,
+				6412C2F11D2A0A4D00C78066 /* KGNSpriteKitTests-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6412C2BF1D29FD2400C78066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6412C2D71D29FE0E00C78066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6412C2F01D2A0A4D00C78066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836E69951BCCD3B40089EAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836E699F1BCCD3B40089EAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6412C2BC1D29FD2400C78066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6487F3261D46A8E100C7F419 /* SKUniform+Color.swift in Sources */,
+				64F1A2B81D46AABE0028EB2F /* SKShader+Source.swift in Sources */,
+				64F1A2B41D46AA560028EB2F /* ShaderView.swift in Sources */,
+				6487F32A1D46A8ED00C7F419 /* SKUniform+Float.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6412C2D41D29FE0E00C78066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6487F3251D46A8E100C7F419 /* SKUniform+Color.swift in Sources */,
+				64F1A2B71D46AABE0028EB2F /* SKShader+Source.swift in Sources */,
+				64F1A2B31D46AA560028EB2F /* ShaderView.swift in Sources */,
+				6487F3291D46A8ED00C7F419 /* SKUniform+Float.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6412C2EE1D2A0A4D00C78066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6412C2FA1D2A0A6B00C78066 /* KGNSpriteKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836E69921BCCD3B40089EAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6487F3241D46A8E100C7F419 /* SKUniform+Color.swift in Sources */,
+				64F1A2B61D46AABE0028EB2F /* SKShader+Source.swift in Sources */,
+				64F1A2B21D46AA560028EB2F /* ShaderView.swift in Sources */,
+				6487F3281D46A8ED00C7F419 /* SKUniform+Float.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836E699D1BCCD3B40089EAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836E69A71BCCD3B40089EAB1 /* KGNSpriteKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6412C2FC1D2A0BA600C78066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6412C2D81D29FE0E00C78066 /* KGNSpriteKit-tvOS */;
+			targetProxy = 6412C2FB1D2A0BA600C78066 /* PBXContainerItemProxy */;
+		};
+		836E69A41BCCD3B40089EAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836E69961BCCD3B40089EAB1 /* KGNSpriteKit-iOS */;
+			targetProxy = 836E69A31BCCD3B40089EAB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6412C2C71D29FD2400C78066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.KGNSpriteKit;
+				PRODUCT_NAME = KGNSpriteKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		6412C2C81D29FD2400C78066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.KGNSpriteKit;
+				PRODUCT_NAME = KGNSpriteKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		6412C2DF1D29FE0F00C78066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.KGNSpriteKit;
+				PRODUCT_NAME = KGNSpriteKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		6412C2E01D29FE0F00C78066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.KGNSpriteKit;
+				PRODUCT_NAME = KGNSpriteKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		6412C2F81D2A0A4D00C78066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidkeegan.KGNSpriteKitTests-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		6412C2F91D2A0A4D00C78066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidkeegan.KGNSpriteKitTests-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		836E69A91BCCD3B40089EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		836E69AA1BCCD3B40089EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		836E69AC1BCCD3B40089EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.KGNSpriteKit;
+				PRODUCT_NAME = KGNSpriteKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		836E69AD1BCCD3B40089EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.KGNSpriteKit;
+				PRODUCT_NAME = KGNSpriteKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		836E69AF1BCCD3B40089EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.KGNSpriteKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		836E69B01BCCD3B40089EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.KGNSpriteKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6412C2C61D29FD2400C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6412C2C71D29FD2400C78066 /* Debug */,
+				6412C2C81D29FD2400C78066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6412C2DE1D29FE0F00C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6412C2DF1D29FE0F00C78066 /* Debug */,
+				6412C2E01D29FE0F00C78066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6412C2F71D2A0A4D00C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKitTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6412C2F81D2A0A4D00C78066 /* Debug */,
+				6412C2F91D2A0A4D00C78066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836E69911BCCD3B30089EAB1 /* Build configuration list for PBXProject "KGNSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836E69A91BCCD3B40089EAB1 /* Debug */,
+				836E69AA1BCCD3B40089EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836E69AB1BCCD3B40089EAB1 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836E69AC1BCCD3B40089EAB1 /* Debug */,
+				836E69AD1BCCD3B40089EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836E69AE1BCCD3B40089EAB1 /* Build configuration list for PBXNativeTarget "KGNSpriteKitTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836E69AF1BCCD3B40089EAB1 /* Debug */,
+				836E69B01BCCD3B40089EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836E698E1BCCD3B30089EAB1 /* Project object */;
+}
