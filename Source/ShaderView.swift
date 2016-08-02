@@ -27,13 +27,13 @@ public class ShaderView: SKView {
         }
     }
 #else
-    let screenScale = UIScreen.main().scale
+    let screenScale = UIScreen.main.scale
     override public var backgroundColor: UIColor? {
         get {
             return self.scene?.backgroundColor
         }
         set {
-            let color = newValue ?? .clear()
+            let color = newValue ?? .clear
             self.scene?.backgroundColor = color
             self.allowsTransparency = color.cgColor.alpha < 1
         }
@@ -139,7 +139,7 @@ public class ShaderView: SKView {
         let aspectY: Float = x < y ? y/x : 1
         self.spriteAspectRatio.float2 = (aspectX, aspectY)
         
-        let scale = UIScreen.main().scale
+        let scale = UIScreen.main.scale
         self.spriteScale.floatValue = Float(scale)
         
         self.spritePixelSize.floatValue = Float(1/min(x, y))
