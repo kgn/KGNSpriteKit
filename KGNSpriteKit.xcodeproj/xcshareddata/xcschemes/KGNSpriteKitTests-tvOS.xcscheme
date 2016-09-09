@@ -10,16 +10,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "836E69A01BCCD3B40089EAB1"
-               BuildableName = "KGNSpriteKitTests-iOS.xctest"
-               BlueprintName = "KGNSpriteKitTests-iOS"
+               BlueprintIdentifier = "6412C2F11D2A0A4D00C78066"
+               BuildableName = "KGNSpriteKitTests-tvOS.xctest"
+               BlueprintName = "KGNSpriteKitTests-tvOS"
                ReferencedContainer = "container:KGNSpriteKit.xcodeproj">
             </BuildableReference>
          </TestableReference>

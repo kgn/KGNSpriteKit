@@ -12,7 +12,7 @@ private extension Selector {
     static let updateSize = #selector(ShaderView.updateSize)
 }
 
-public class ShaderView: SKView {
+open class ShaderView: SKView {
     
 #if os(OSX)
     let screenScale = NSScreen.mainScreen()!.backingScaleFactor
@@ -28,7 +28,7 @@ public class ShaderView: SKView {
     }
 #else
     let screenScale = UIScreen.main.scale
-    override public var backgroundColor: UIColor? {
+    override open var backgroundColor: UIColor? {
         get {
             return self.scene?.backgroundColor
         }
@@ -40,7 +40,7 @@ public class ShaderView: SKView {
     }
 #endif
     
-    public var shouldRasterize: Bool {
+    open var shouldRasterize: Bool {
         get {
             return self.rasterNode.shouldRasterize
         }
@@ -52,7 +52,7 @@ public class ShaderView: SKView {
         }
     }
     
-    public var shader: SKShader? {
+    open var shader: SKShader? {
         didSet {
             if self.shader == oldValue {
                 return
@@ -68,7 +68,7 @@ public class ShaderView: SKView {
     }
     
     private var privateLastSize: CGSize?
-    public var lastSize: CGSize? {
+    open var lastSize: CGSize? {
         return self.privateLastSize
     }
     
@@ -97,7 +97,7 @@ public class ShaderView: SKView {
         self.setup()
     }
     
-    override public func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
     
         self.updateSize()
@@ -110,7 +110,7 @@ public class ShaderView: SKView {
         self.setup()
     }
     
-    public func setup() {
+    open func setup() {
         let scene = SKScene()
         scene.addChild(self.rasterNode)
         self.rasterNode.addChild(self.shaderNode)
@@ -122,7 +122,7 @@ public class ShaderView: SKView {
         #endif
     }
     
-    @objc private func updateSize() {
+    @objc fileprivate func updateSize() {
         if self.bounds.isEmpty {
             return
         }
