@@ -20,17 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-//        if let viewController = self.window?.rootViewController as? ViewController {
-//            viewController.shaderView.pause = false
-//        }
+        if let viewController = self.window?.rootViewController as? ViewController {
+            viewController.shaderView.isPaused = false
+        }
     }
     
     func applicationWillResignActive(_ application: UIApplication) {
-//        if let homeViewController = self.window?.rootViewController as? ViewController {
-//            viewController.shaderView.pause = true
-//        }
+        if let viewController = self.window?.rootViewController as? ViewController {
+            viewController.shaderView.isPaused = true
+        }
     }
-
 
 }
 
