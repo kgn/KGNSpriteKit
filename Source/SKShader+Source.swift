@@ -22,9 +22,9 @@ extension SKShader {
     
     public class func shader(fromSource source: String) -> SKShader {
         var universalSource = source
-        if TARGET_OS_SIMULATOR != 1 { // check for simulator
+        #if arch(i386) || arch(x86_64)
             universalSource = universalSource.replacingOccurrences(of: "const", with: "constant")
-        }
+        #endif
         return SKShader(source: universalSource)
     }
     
