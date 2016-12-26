@@ -10,22 +10,18 @@ import SpriteKit
 
 extension SKShader {
     
-    // TODO: this doesn't seem to work in playgrounds
-    public class func shader(fromFile fileNamed: String, fileExtension: String = "fsh") -> SKShader? {
-        let mainBundlePath = Bundle.main.bundlePath
-        let shaderPath = mainBundlePath+"/"+fileNamed+"."+fileExtension
-        guard let source = try? String(contentsOfFile: shaderPath) else {
-            return nil
-        }
-        return self.shader(fromSource: source)
+    public convenience init(fileNamed: String, extension: String = "fsh") {
+        let shaderPath = "\(Bundle.main.bundlePath)/\(fileNamed).(`extension`)"
+        let source = (try? String(contentsOfFile: shaderPath)) ?? ""
+        self.init(universalSource: source)
     }
     
-    public class func shader(fromSource source: String) -> SKShader {
-        var universalSource = source
-        #if arch(i386) || arch(x86_64)
-            universalSource = universalSource.replacingOccurrences(of: "const", with: "constant")
+    public convenience init(universalSource: String) {
+        var source = universalSource
+        #if arch(i386) || arch(x86_64) // simulator
+            source = source.replacingOccurrences(of: "const", with: "constant")
         #endif
-        return SKShader(source: universalSource)
+        self.init(source: source)
     }
     
 }
