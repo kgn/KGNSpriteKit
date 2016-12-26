@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64046EE01E11B3F200091120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64046EDF1E11B3F200091120 /* AppDelegate.swift */; };
+		64046EE21E11B3F200091120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64046EE11E11B3F200091120 /* ViewController.swift */; };
+		64046EE71E11B3F200091120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64046EE61E11B3F200091120 /* Assets.xcassets */; };
+		64046EEA1E11B3F200091120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64046EE81E11B3F200091120 /* LaunchScreen.storyboard */; };
+		64046EF01E11B50E00091120 /* shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 64046EEF1E11B50E00091120 /* shader.fsh */; };
+		64046EF41E11B85A00091120 /* ShaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A2B11D46AA560028EB2F /* ShaderView.swift */; };
+		64046EF51E11B85A00091120 /* SKShader+Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A2B51D46AABE0028EB2F /* SKShader+Source.swift */; };
+		64046EF61E11B85A00091120 /* SKUniform+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487F3231D46A8E100C7F419 /* SKUniform+Color.swift */; };
+		64046EF71E11B85A00091120 /* SKUniform+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487F3271D46A8ED00C7F419 /* SKUniform+Float.swift */; };
 		6412C2E91D2A007000C78066 /* KGNSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6412C2E81D2A003C00C78066 /* KGNSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6412C2EA1D2A007100C78066 /* KGNSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6412C2E81D2A003C00C78066 /* KGNSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6412C2EB1D2A007100C78066 /* KGNSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6412C2E81D2A003C00C78066 /* KGNSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64046EDD1E11B3F200091120 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64046EDF1E11B3F200091120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64046EE11E11B3F200091120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64046EE61E11B3F200091120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64046EE91E11B3F200091120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64046EEB1E11B3F200091120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64046EEF1E11B50E00091120 /* shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.fsh; sourceTree = "<group>"; };
 		6412C2C11D29FD2400C78066 /* KGNSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KGNSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6412C2D91D29FE0F00C78066 /* KGNSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KGNSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6412C2E71D2A003C00C78066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		64046EDA1E11B3F200091120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6412C2BD1D29FD2400C78066 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,10 +126,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64046EDE1E11B3F200091120 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				64046EDF1E11B3F200091120 /* AppDelegate.swift */,
+				64046EE11E11B3F200091120 /* ViewController.swift */,
+				64046EE61E11B3F200091120 /* Assets.xcassets */,
+				64046EE81E11B3F200091120 /* LaunchScreen.storyboard */,
+				64046EEF1E11B50E00091120 /* shader.fsh */,
+				64046EEB1E11B3F200091120 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		836E698D1BCCD3B30089EAB1 = {
 			isa = PBXGroup;
 			children = (
 				6412C2ED1D2A03D600C78066 /* .travis.yml */,
+				64046EDE1E11B3F200091120 /* Example */,
 				836E69991BCCD3B40089EAB1 /* Source */,
 				836E69A51BCCD3B40089EAB1 /* Tests */,
 				836E69981BCCD3B40089EAB1 /* Products */,
@@ -121,6 +158,7 @@
 				6412C2C11D29FD2400C78066 /* KGNSpriteKit.framework */,
 				6412C2D91D29FE0F00C78066 /* KGNSpriteKit.framework */,
 				6412C2F21D2A0A4D00C78066 /* KGNSpriteKitTests-tvOS.xctest */,
+				64046EDD1E11B3F200091120 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +215,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		64046EDC1E11B3F200091120 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64046EEE1E11B3F200091120 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				64046ED91E11B3F200091120 /* Sources */,
+				64046EDA1E11B3F200091120 /* Frameworks */,
+				64046EDB1E11B3F200091120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 64046EDD1E11B3F200091120 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6412C2C01D29FD2400C78066 /* KGNSpriteKit-watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6412C2C61D29FD2400C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-watchOS" */;
@@ -273,10 +328,15 @@
 		836E698E1BCCD3B30089EAB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "David Keegan";
 				TargetAttributes = {
+					64046EDC1E11B3F200091120 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T3DCX7XWL8;
+						ProvisioningStyle = Automatic;
+					};
 					6412C2C01D29FD2400C78066 = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0820;
@@ -305,6 +365,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 836E698D1BCCD3B30089EAB1;
 			productRefGroup = 836E69981BCCD3B40089EAB1 /* Products */;
@@ -316,11 +377,22 @@
 				6412C2C01D29FD2400C78066 /* KGNSpriteKit-watchOS */,
 				836E69A01BCCD3B40089EAB1 /* KGNSpriteKitTests-iOS */,
 				6412C2F11D2A0A4D00C78066 /* KGNSpriteKitTests-tvOS */,
+				64046EDC1E11B3F200091120 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		64046EDB1E11B3F200091120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64046EEA1E11B3F200091120 /* LaunchScreen.storyboard in Resources */,
+				64046EE71E11B3F200091120 /* Assets.xcassets in Resources */,
+				64046EF01E11B50E00091120 /* shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6412C2BF1D29FD2400C78066 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,6 +431,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		64046ED91E11B3F200091120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64046EE21E11B3F200091120 /* ViewController.swift in Sources */,
+				64046EF51E11B85A00091120 /* SKShader+Source.swift in Sources */,
+				64046EF61E11B85A00091120 /* SKUniform+Color.swift in Sources */,
+				64046EF41E11B85A00091120 /* ShaderView.swift in Sources */,
+				64046EE01E11B3F200091120 /* AppDelegate.swift in Sources */,
+				64046EF71E11B85A00091120 /* SKUniform+Float.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6412C2BC1D29FD2400C78066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,7 +508,52 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		64046EE81E11B3F200091120 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64046EE91E11B3F200091120 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		64046EEC1E11B3F200091120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = T3DCX7XWL8;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.kgnspritekit.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64046EED1E11B3F200091120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = T3DCX7XWL8;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkeegan.kgnspritekit.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		6412C2C71D29FD2400C78066 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -716,6 +846,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		64046EEE1E11B3F200091120 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64046EEC1E11B3F200091120 /* Debug */,
+				64046EED1E11B3F200091120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6412C2C61D29FD2400C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

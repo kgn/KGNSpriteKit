@@ -10,8 +10,8 @@ import SpriteKit
 
 extension SKShader {
     
-    public convenience init(fileNamed: String, extension: String = "fsh") {
-        let shaderPath = "\(Bundle.main.bundlePath)/\(fileNamed).(`extension`)"
+    public convenience init(shaderNamed filename: String, extension: String = "fsh") {
+        let shaderPath = "\(Bundle.main.bundlePath)/\(filename).\(`extension`)"
         let source = (try? String(contentsOfFile: shaderPath)) ?? ""
         self.init(universalSource: source)
     }

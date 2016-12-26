@@ -58,12 +58,12 @@ open class ShaderView: SKView {
                 return
             }
             
-            self.shaderNode.shader = self.shader
-            
             self.shader?.addUniform(self.spriteScale)
             self.shader?.addUniform(self.spritePixelSize)
             self.shader?.addUniform(self.spriteSize)
             self.shader?.addUniform(self.spriteAspectRatio)
+            
+            self.shaderNode.shader = self.shader
         }
     }
     
