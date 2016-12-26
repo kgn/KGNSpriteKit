@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-private extension Selector {
+fileprivate extension Selector {
     static let updateSize = #selector(ShaderView.updateSize)
 }
 
