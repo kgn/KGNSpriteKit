@@ -853,6 +853,7 @@
 				64046EED1E11B3F200091120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6412C2C61D29FD2400C78066 /* Build configuration list for PBXNativeTarget "KGNSpriteKit-watchOS" */ = {
 			isa = XCConfigurationList;

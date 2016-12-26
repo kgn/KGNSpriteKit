@@ -17,8 +17,11 @@ extension SKShader {
     }
     
     public convenience init(universalSource: String) {
-        var source = universalSource
-        #if arch(i386) || arch(x86_64) // simulator
+        // Add a newline as the first line to make SpriteKit happy
+        // syntax error: preprocessor command must not be preceded by any other statement in that line
+        var source = "\n"+universalSource
+        #if arch(i386) || arch(x86_64) // device
+        #else // simulator
             source = source.replacingOccurrences(of: "const", with: "constant")
         #endif
         self.init(source: source)
